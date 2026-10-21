@@ -1,0 +1,32 @@
+# Configuración y secretos locales
+.env
+.env.*
+!.env.example
+config.local.php
+PHP/config.local.php
+
+# Dependencias generadas
+/vendor/
+/node_modules/
+
+# Archivos temporales y registros
+*.log
+*.tmp
+*.temp
+*.bak
+php_errorlog
+error_log
+/tmp/
+/cache/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Configuración de editores
+.vscode/
+.idea/
+
+# Archivos de prueba generados
+.phpunit.cache/
